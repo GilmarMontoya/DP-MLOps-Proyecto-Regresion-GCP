@@ -50,7 +50,7 @@ def prediccion_o_inferencia(pipeline_de_test, datos_de_test):
 st.title("Proyecto Modelo ML - Nombre Apellido - DATAPATH")
 
 image = Image.open(BASE_DIR / 'images' / 'datapath-logo.png') #COMPLETAR CON UNA IMAGEN
-st.image(image, use_container_width=True) #use_column_width esta "deprecated"
+st.image(image, width="stretch") #use_column_width esta "deprecated"
 
 st.sidebar.write("Suba el archivo CSV correspondiente para realizar la predicción")
 
